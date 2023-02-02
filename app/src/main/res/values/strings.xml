@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Home Security System</string>
+    <string name="app_sh_n" translatable="false">HSS</string>
+    <string name="intro_text" translatable="false">Home Security System</string>
+    <string name="familiar" translatable="false">Familiar people</string>
+    <string name="unfamiliar" translatable="false">Unfamiliar people</string>
+    <string name="all_people" translatable="false">All people</string>
+    <string name="num_fam" translatable="false">4</string>
+    <string name="num_un" translatable="false">4</string>
+    <string name="todo" translatable="false">TODO</string>
+</resources>
