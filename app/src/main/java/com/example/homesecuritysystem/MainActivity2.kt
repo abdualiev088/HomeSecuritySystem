@@ -45,7 +45,7 @@ import kotlin.concurrent.thread
 class MainActivity2 : AppCompatActivity() {
     lateinit var binding: ActivityMain2Binding
 //    192.168.1.101 - Home wifi
-    val BASE_URL = "http://192.168.3.67:5000/"
+    val BASE_URL = "http://172.18.2.85:5000/"
 
     //    ADAPTER
     lateinit var personAdapter: PersonAdapter
@@ -114,7 +114,7 @@ class MainActivity2 : AppCompatActivity() {
                 personAdapter.setOnClickListener(object : PersonAdapter.onItemClickListener{
                     override fun onItemClick(position: Int) {
                         thread {
-                            var url = "https://sgp1.blynk.cloud/external/api/update?token=BF6rPUf64b7bDSRjDNY-zD011KWl5B79&v7=1"
+                            var url = "https://sgp1.blynk.cloud/external/api/update?token=BF6rPUf64b7bDSRjDNY-zD011KWl5B79&v7=0"
                             val json = try {
                                 URL(url).readText()
                             } catch (e: Exception) {

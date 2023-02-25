@@ -37,8 +37,11 @@ android {
 
 dependencies {
 
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
 //    Splash Screen
     implementation 'androidx.core:core-splashscreen:1.0.0-beta02'
+
     // Lifecycle components
     def lifecycle_version = "2.5.1"
 //    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
@@ -50,8 +53,8 @@ dependencies {
     androidTestImplementation "androidx.room:room-testing:2.2.5"
 //    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.2.5'
 
-//    Coil
-    implementation("io.coil-kt:coil:2.2.2")
+////    Coil
+//    implementation("io.coil-kt:coil:2.2.2")
 
 //    okHttp
     implementation("com.squareup.okhttp3:okhttp:4.10.0")

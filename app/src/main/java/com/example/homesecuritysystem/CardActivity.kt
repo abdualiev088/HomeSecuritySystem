@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.inputmethod.InputBinding
 import android.widget.Switch
 import com.example.homesecuritysystem.databinding.ActivityCardBinding
-import com.example.homesecuritysystem.databinding.ActivityMainBinding
 
 class CardActivity : AppCompatActivity() {
     lateinit var binding: ActivityCardBinding
